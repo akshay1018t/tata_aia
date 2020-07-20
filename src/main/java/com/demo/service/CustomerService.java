@@ -61,7 +61,6 @@ public class CustomerService {
 		customerInfo.setExpireTime(expiryTime);
 		
 		optinOtpValidatorTransaction.save(customerInfo);
-		
 	} 
 
 	
